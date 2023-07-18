@@ -1,0 +1,19 @@
+<svg width="21" height="21" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="myGradient" gradientTransform="rotate(90)">
+            <stop offset="0%" stop-color="white" />
+            <stop offset="50%" stop-color="#0056ff" />
+            <stop offset="100%" stop-color="white" />
+        </linearGradient>
+    </defs>
+    <g>
+        <title>Layer 1</title>
+        <path id="svg_2" d="m0,0" opacity="NaN" stroke="#000" fill="#fff" />
+        <g id="svg_9">
+            <circle stroke="#0056ff" cx="10.5" cy="10.50887" r="10" fill="url('#myGradient')" id="svg_1" />
+            <path stroke="null" id="svg_5"
+                d="m9.85145,13.49013l2.26201,-1.74917l-4.37349,0l-4.37348,0l0,-1.08282l0,-1.08282l4.32331,0c2.37782,0 4.32331,-0.05488 4.32331,-0.12196c0,-0.06708 -0.9466,-0.8542 -2.10356,-1.74917l-2.10356,-1.62721l1.94434,0l1.94433,0l2.96943,2.29277l2.96943,2.29277l-2.97512,2.28838l-2.97512,2.28838l-2.04691,0l-2.04692,0l2.26202,-1.74917l0,0z"
+                fill="white" />
+        </g>
+    </g>
+</svg>

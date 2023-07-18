@@ -1,0 +1,21 @@
+<svg width="21" height="21" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient gradientTransform="rotate(90)" id="myGradient">
+            <stop stop-color="white" offset="0%" />
+            <stop stop-color="#0056ff" offset="50%" />
+            <stop stop-color="white" offset="100%" />
+        </linearGradient>
+    </defs>
+    <g>
+        <title>Layer 1</title>
+        <g id="svg_4">
+            <path fill="#fff" stroke="#000" opacity="NaN" d="m0,0" id="svg_2" />
+            <g id="svg_9">
+                <circle id="svg_1" fill="url('#myGradient')" r="10" cy="10.62512" cx="10.44188" stroke="#0056ff" />
+                <path id="svg_3"
+                    d="m18.03014,10.48274l-1.95202,-1.67802l0,-4.00763l-1.67343,0l0,2.56909l-3.90468,-3.35659l-7.53014,6.47315l1.79265,-0.03672l0,6.54439l11.39529,0l0,-6.50767l1.87233,0zm-7.53014,5.57166l-3.71853,0l0,-3.8361l3.71853,0l0,3.8361zm3.61271,-1.64404l-2.44353,0l0,-2.21507l2.44353,0l0,2.21507z"
+                    stroke="null" fill="white" />
+            </g>
+        </g>
+    </g>
+</svg>
