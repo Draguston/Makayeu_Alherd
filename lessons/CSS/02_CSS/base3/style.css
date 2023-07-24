@@ -1,0 +1,29 @@
+div.nav {
+    width: 15em;
+    background-color:#aaaaaa;
+    float: left;
+}
+
+.wrap {
+    background-color:#C0C0C0;
+}
+
+.clear {
+    clear: both;
+}
+
+.article1 {
+    width: auto;
+    background-color: #969494;
+    margin-bottom: .2em;
+    overflow: hidden;
+}
+
+img {
+    float: right;
+    margin-bottom: 5px;
+}
+
+.footer {
+    background-color: #969494;
+}
