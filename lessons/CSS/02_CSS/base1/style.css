@@ -1,0 +1,51 @@
+.card1 {
+    background-image: url(img/cards.7e0a18f0.png);
+    background-position-y: -198px;
+    float: left;
+    height: 195px;
+    width: 140px;
+    margin-top: 150px;
+    border-radius: 20px;
+}
+.card2 {
+    background-image: url(img/cards.7e0a18f0.png);
+    background-position-y: -1795px;
+    float: left;
+    height: 195px;
+    width: 140px;
+    margin-top: 200px;
+    margin-left: -70px;
+    border-radius: 20px;
+}
+.card3 {
+    background-image: url(img/cards.7e0a18f0.png);
+    background-position-y: -1395px;
+    background-position-x: -288px;
+    float: left;
+    height: 195px;
+    width: 140px;
+    margin-top: 250px;
+    margin-left: -70px;
+    border-radius: 20px;
+}
+.card4 {
+    background-image: url(img/cards.7e0a18f0.png);
+    background-position-y: -2190px;
+    background-position-x: -144px;
+    float: left;
+    height: 195px;
+    width: 140px;
+    margin-top: 300px;
+    margin-left: -70px;
+    border-radius: 20px;
+}
+.card5 {
+    background-image: url(img/cards.7e0a18f0.png);
+    background-position-y: -2390px;
+    float: left;
+    height: 188px;
+    width: 140px;
+    margin-top: 350px;
+    margin-left: -70px;
+    border-radius: 20px;
+}
