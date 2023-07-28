@@ -1,0 +1,34 @@
+div.nav {
+    width: 15em;
+    height: 18em;
+    background-color:#aaaaaa;
+    overflow: auto;
+}
+
+.wrap {
+    width: 96%;
+    background-color:#C0C0C0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.article1 {
+    flex-grow: 5;
+    flex-shrink: 5;
+    background-color: #969494;
+    margin-bottom: .2em;
+    overflow: hidden;
+}
+
+img {
+    float: right;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.footer {
+    flex-grow: 1;
+    background-color: #969494;
+}

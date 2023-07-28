@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>border_image</title>
+        <style>
+            .border {
+                border: 100px solid; border-width: 150px; max-width: 60%;
+                border-image: url(img/13128.png) 50;
+                border-image-slice: 190;
+                border-image-repeat: round;
+            }
+            p {
+                padding: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="border">
+            <p> border-image используется для отображения рисованной рамки вокруг элемента. 
+                Толщина рамки задаётся свойством border, при этом если указано border: 0, то рамка не выводится. 
+                При других значениях border рисунок всегда имеет приоритет.
+                Фон, если он задан через свойство background, отображается под рамкой.</p>
+        </div>
+    </body>
+</html>
