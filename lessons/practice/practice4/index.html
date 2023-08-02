@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <title>Document</title>
+        <style>
+
+            div[class="container"]>.row>.header{
+                background-color: gray;
+                height: 40px;
+                border: 2px solid black;
+            }
+
+            div[class="container"]>.row>.header>div{
+                background-color: red;
+                border: 2px solid gray;
+            }
+            
+            .container>.row>div[class="col s2"]{
+                background-color: lawngreen;
+                border: 2px solid black;
+                height: 500px;
+            }
+
+            div[class="col s2"]>div{
+                background-color: red;
+                border: 2px solid lawngreen;
+            }
+
+            .container>.row>div:nth-child(4)>div{
+                height: 100px;
+            }
+
+            div[class="col s8"]{
+                background-color: gray;
+                height: 500px;
+                border: 2px solid black;
+            }
+
+            div[class="col s8"]>div{
+                background-color: red;
+                border: 2px solid gray;
+            }
+
+            .container>.row>div[class="col s12"]{
+                background-color: gray;
+                height: 200px;
+                border: 2px solid black;
+            }
+
+            .container>.row>div[class="col s12"]>div{
+                background-color: red;
+                border: 2px solid gray;
+                height: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="header">
+                    <div class="col s2">1</div>
+                    <div class="col s2">2</div>
+                    <div class="col s2">3</div>
+                    <div class="col s2">4</div>
+                    <div class="col s2">5</div>
+                    <div class="col s2">6</div>
+                </div>
+                    <div class="col s2">
+                            <div class="col s12">1</div>
+                            <div class="col s12">1</div>
+                            <div class="col s12">1</div>
+                    </div>
+                    <div class="col s8">
+                        <div class="col s3">1</div>
+                        <div class="col s3">2</div>
+                        <div class="col s3">3</div>
+                        <div class="col s3">4</div>
+                    </div>
+                    <div class="col s2">
+                        <div class="col s12">1</div>
+                        <div class="col s12">1</div>
+                    </div>
+                    <div class="col s12">
+                        <div class="col s4">1</div>
+                        <div class="col s4">1</div>
+                        <div class="col s4">1</div>
+                    </div>
+            </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </body>
+</html>

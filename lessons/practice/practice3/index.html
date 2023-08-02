@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            div{
+                width: 1000px;
+                height: 1000px;
+                position: relative;
+                margin: 0% auto;
+            }
+
+            img{
+                position: absolute;
+            }
+
+            div>img:nth-child(1){
+                right: 350px;
+                bottom: 350px;
+                z-index: 4;
+            }
+            
+            div>img:nth-child(2){
+                right: 350px;
+                bottom: 450px;
+                z-index: 3;
+            }
+            
+            div>img:nth-child(3){
+                right: 500px;
+                bottom: 170px;
+                z-index: 2;
+            }
+
+            div>img:nth-child(4){
+                right: 100px;
+                bottom: 170px;
+                z-index: 1;
+            }
+
+            div>img:nth-child(1):hover{
+                z-index: 4;
+            }
+            div>img:nth-child(2):hover{
+                z-index: 4;
+            }
+            div>img:nth-child(3):hover{
+                z-index: 4;
+            }
+            div>img:nth-child(4):hover{
+                z-index: 4;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <img src="img/images.png" alt="">
+            <img src="img/images2.jpeg" alt="">
+            <img src="img/images3.png" alt="">
+            <img src="img/images4.jpg" alt="">
+        </div>
+    </body>
+</html>

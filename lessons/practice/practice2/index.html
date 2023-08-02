@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body{
+                background-color:darkslategray;
+            }
+            body>div>ul>li:nth-child(1)>a{
+                color: red;
+            }
+
+            body>div>ul>li:nth-child(2)>span>a{
+                color: green;
+            }
+
+            body>div>ul>li:nth-child(3)>em>a{
+                color: blue;
+            }
+
+            body>div>p>em>a{
+                color: yellow;
+            }
+
+            body>div>span>em>a{
+                color: black;
+            }
+
+            body>ul>li:nth-child(1)>a:nth-child(1){
+                color: orange;
+            }
+
+            body>ul>li:nth-child(1)>span>a{
+                color: pink;
+            }
+
+            body>ul>li:nth-child(1)>em>a{
+                color: violet;
+            }
+
+            body>ul>li:nth-child(2)>p>em>a{
+                color: aqua;
+            }
+
+            body>ul>li:nth-child(3)>div>ul>li:nth-child(1)>a{
+                color: indigo;
+            }
+
+            body>ul>li:nth-child(3)>div>ul>li:nth-child(2)>em>a{
+                color: chocolate;
+            }
+
+            body>ul>li:nth-child(3)>div>ul>li:nth-child(3)>span>a{
+                color: brown;
+            }
+
+            body>ul>li:nth-child(3)>div>p>a{
+                color: white;
+                background-color: wheat;
+            }
+            body>p>em>a{
+                color: gray;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <ul>
+                <li>
+                    <a href="">red</a>
+                </li>
+                <li>
+                    <span>
+                        <a href="">green</a>
+                    </span>
+                </li>
+                <li>
+                    <em>
+                        <a href="">blue</a>
+                    </em>
+                </li>
+            </ul>
+            <p>
+                <em>
+                    <a href="">yellow</a>
+                </em>
+            </p>
+            <span>
+                <em>
+                    <a href="">black</a>
+                </em>
+            </span>
+        </div>
+        <ul>
+            <li>
+                <a href="">orange</a>
+                <span>
+                    <a href="">pink</a>
+                </span>
+                <em>
+                    <a href="">violet</a>
+                </em>
+            </li>
+            <li>
+                <p>
+                    <em>
+                        <a href="">aqua</a>
+                    </em>
+                </p>
+            </li>
+            <li>
+                <div>
+                    <ul>
+                        <li>
+                            <a href="">indigo</a>
+                        </li>
+                        <li>
+                            <em>
+                                <a href="">chocolate</a>
+                            </em>
+                        </li>
+                        <li>
+                            <span>
+                                <a href="">brown</a>
+                            </span>
+                        </li>
+                    </ul>
+                    <p>
+                        <a href="">white</a>
+                    </p>
+                </div>
+            </li>
+        </ul>
+        <p>
+            <em>
+                <a href="">gray</a>
+            </em>
+        </p>
+    </body>
+</html>

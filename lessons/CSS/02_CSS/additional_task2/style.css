@@ -1,34 +1,39 @@
-div.nav {
-    width: 15em;
-    height: 18em;
-    background-color:#aaaaaa;
-    overflow: auto;
-}
-
-.wrap {
-    width: 96%;
+.wrap{
     background-color:#C0C0C0;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: flex-start;
 }
 
-.article1 {
-    flex-grow: 5;
-    flex-shrink: 5;
-    background-color: #969494;
-    margin-bottom: .2em;
-    overflow: hidden;
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
-img {
+div.nav{
+    width: 17em;
+    height: 18em;
+    background-color:#aaaaaa;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.article1{
+    background-color: #969494;
+    margin-bottom: .2em;
+}
+
+img{
     float: right;
     margin-bottom: 5px;
     margin-right: 5px;
 }
 
-.footer {
-    flex-grow: 1;
+.footer{
     background-color: #969494;
 }

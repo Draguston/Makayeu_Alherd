@@ -35,7 +35,7 @@
                 <fieldset>
                     <legend>Паспортные данные</legend>
                     <span>text: Серия - только заглавные две латинские буквы с длинной 2 и максимальным количеством символов 2, количество букв не менее 2, обязательное поле</span><br>
-                    <span>text: Номер паспорта - только цифры с длиной 7 и максимальным количеством символов 7, количество цифр не менее 7, обязательное поле</span>
+                    <span>text: Номер паспорта - только цифры с длиной 7 и максимальным количеством символов 7, количество цифр не менее 7, обязательное поле</span><br>
                     <input type="text" placeholder="AB" name="series" pattern="[A-Z]{2}" required size="5">
                     <input type="text" placeholder="1234567" size="7" name="nubmer of the passport" required pattern="\d{7}">
                 </fieldset>
@@ -81,7 +81,7 @@
                 <fieldset>
                     <legend>Домашние животные (возможность выбора нескольких вариантов)</legend>
                     <span>array: select multiple</span><br>
-                    <select name="animal" size="12" multiple>
+                    <select name="animal[]" size="12" multiple>
                         <option class="type" value="parrots" disabled>Попугаи</option>
                         <option class="animals" value="wavy">Волнистый</option>
                         <option class="animals" value="macaw">Ара</option>
