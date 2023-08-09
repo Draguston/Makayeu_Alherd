@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>input</title>
+        <style>
+            input{
+                margin-top: 4px;
+            }
+
+            input[type="submit"]{
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Проверка пароля</h1>
+        <fieldset>
+            <input type="password" name="password" class="password password1">* Пароль<br>
+            <input type="password" class="password password2">* Повторите пароль<br>
+            <input type="submit" value="Отправить">
+        </fieldset>
+
+
+        <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function($){
+                $(".password").keyup(function(){
+                    $(".password").css({backgroundColor: "green"});
+                    $(".password").attr('type', 'text');
+                    var password1 = $(".password1").val();
+                    var password2 = $(".password2").val();
+                    
+                    if(password1 == password2){
+                        $(".password").css({backgroundColor: "green"});
+                    }
+                    else{
+                        $('.password').css({backgroundColor: "red"});
+                    }
+                })
+            });
+        </script>
+    </body>
+</html>

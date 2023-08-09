@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <style>
+        header{
+            background-color: aqua;
+            height: 50px;
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+        }
+
+        .button1{
+            margin: 10px 5px 0px 0px;
+            height: 25px;
+            width: 25px;
+            background-color: rgb(69, 161, 33);
+        }
+
+        .button2{
+            margin: 10px 5px 0px 0px;
+            height: 25px;
+            width: 25px;
+            background-color: rgb(255, 0, 0);
+            display: none;
+        }
+
+        body{
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        body>div{
+            background-color: blueviolet;
+            width: 100px;
+            position: absolute;
+            top: 55px;
+            right: -110px;
+        }
+
+        li{
+            margin: 10px 20px 10px -5px;
+            background-color: chartreuse;
+        }
+
+        .menu{
+            transition: 0.5s;
+        }
+    </style>
+    <body>
+        <header>
+            <div class="button1"></div>
+            <div class="button2"></div>
+        </header>
+        <div class="menu">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+        <script>
+            $(document).ready(function(){
+                $(".button1").click(function(){
+                    $(".menu").css("right", "0px");
+                    $(this).css("display", "none")
+                    $(".button2").css("display", "block")
+
+                });
+
+                $(".button2").click(function(){
+                    $(".menu").css("right", "-110px");
+                    $(this).css("display", "none")
+                    $(".button1").css("display", "block")
+                });
+            });
+        </script>
+    </body>
+</html>
